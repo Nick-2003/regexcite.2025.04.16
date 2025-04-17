@@ -28,9 +28,13 @@ is_leap(1900)
 ```
 
 ```{r warnings=FALSE, message=FALSE}
-expect_error(is_leap(-2000))
+temp_conv(41, "F", "C")
 ```
 
 ```{r warnings=FALSE, message=FALSE}
-expect_error(is_leap("2000"))
+temp_conv(5, "C", "K")
+```
+
+```{r warnings=FALSE, message=FALSE}
+temp_conv(278.15, "K", "F")
 ```
