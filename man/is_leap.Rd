@@ -2,7 +2,7 @@
 % Please edit documentation in R/is_leap.R
 \name{is_leap}
 \alias{is_leap}
-\title{Is leap year?}
+\title{Check if a year is a leap year.}
 \usage{
 is_leap(year)
 }
