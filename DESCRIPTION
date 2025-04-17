@@ -16,3 +16,4 @@ Config/testthat/edition: 3
 Imports: 
     stringr
 VignetteBuilder: knitr
+URL: https://nick-2003.github.io/regexcite.2025.04.16/
