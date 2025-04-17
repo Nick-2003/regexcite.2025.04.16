@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   my-vignette: my-vignette.html
-last_built: 2025-04-17T18:35Z
+last_built: 2025-04-17T19:40Z
 urls:
   reference: https://nick-2003.github.io/regexcite.2025.04.16/reference
   article: https://nick-2003.github.io/regexcite.2025.04.16/articles

@@ -73,9 +73,14 @@
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/is_leap.html">is_leap</a></span><span class="op">(</span><span class="fl">1900</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] FALSE</span></span></code></pre></div>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://testthat.r-lib.org/reference/expect_error.html" class="external-link">expect_error</a></span><span class="op">(</span><span class="fu"><a href="../reference/is_leap.html">is_leap</a></span><span class="op">(</span><span class="op">-</span><span class="fl">2000</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/temp_conv.html">temp_conv</a></span><span class="op">(</span><span class="fl">41</span>, <span class="st">"F"</span>, <span class="st">"C"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 5</span></span></code></pre></div>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://testthat.r-lib.org/reference/expect_error.html" class="external-link">expect_error</a></span><span class="op">(</span><span class="fu"><a href="../reference/is_leap.html">is_leap</a></span><span class="op">(</span><span class="st">"2000"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/temp_conv.html">temp_conv</a></span><span class="op">(</span><span class="fl">5</span>, <span class="st">"C"</span>, <span class="st">"K"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 278.15</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/temp_conv.html">temp_conv</a></span><span class="op">(</span><span class="fl">278.15</span>, <span class="st">"K"</span>, <span class="st">"F"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 41</span></span></code></pre></div>
   </main>
 </div>
 
