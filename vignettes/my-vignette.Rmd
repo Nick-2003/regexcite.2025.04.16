@@ -14,6 +14,23 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+```{r warnings=FALSE, message=FALSE}
 library(regexcite.2025.04.16)
+library(testthat)
+```
+
+```{r warnings=FALSE, message=FALSE}
+is_leap(2000)
+```
+
+```{r warnings=FALSE, message=FALSE}
+is_leap(1900)
+```
+
+```{r warnings=FALSE, message=FALSE}
+expect_error(is_leap(-2000))
+```
+
+```{r warnings=FALSE, message=FALSE}
+expect_error(is_leap("2000"))
 ```
