@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r warnings=FALSE, message=FALSE}
-library(regexcite.2025.04.16)
+library(regexcite20250416)
 library(testthat)
 ```
 

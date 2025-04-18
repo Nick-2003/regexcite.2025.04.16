@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(regexcite.2025.04.16)
+library(regexcite20250416)
 
-test_check("regexcite.2025.04.16")
+test_check("regexcite20250416")
